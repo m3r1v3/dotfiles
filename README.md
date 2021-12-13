@@ -16,17 +16,17 @@ Edit them if it's necessary.
 
 #### About CyberpunkSetup
 
-**Distributive**: Manjaro
-**Window Manager:** i3-gaps
-**Fonts:** Hack and Roboto Condensed
-**Terminal Emulator:** Alacritty
-**Status bars:** Polybar
-**Compositor:** Picom
-**Color Scheme:** Pywal
-**Wallpaper:** Tesla Cybertruck Wallpaper by @merive
+* **Distributive**: Manjaro
+* **Window Manager:** i3-gaps
+* **Fonts:** Hack and Roboto Condensed
+* **Terminal Emulator:** Alacritty
+* **Status bars:** Polybar
+* **Compositor:** Picom
+* **Color Scheme:** Pywal
+* **Wallpaper:** Tesla Cybertruck Wallpaper by @merive
 
 #### About CyberpunkSetup Screenshot
 
-* pfetch
-* Script for getting color palette (in scripts folder)
-* cmatrix
+* **pfetch**
+* **cl** (in scripts folder)
+* **cmatrix**
