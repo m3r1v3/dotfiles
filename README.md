@@ -30,3 +30,25 @@ Edit them if it's necessary.
 * **pfetch**
 * **cl** (in scripts folder)
 * **cmatrix**
+
+### H4CKSetup
+
+![H4CKSetup](https://github.com/merive-studio/dotfiles/blob/master/H4CKSetup/setup.png)
+
+#### About H4CKSetup
+
+* **Distributive**: Manjaro
+* **Window Manager:** i3-gaps
+* **Fonts:** Hack and Roboto Condensed
+* **Terminal Emulator:** Alacritty
+* **Status bars:** Polybar
+* **Compositor:** Picom
+* **Color Scheme:** Pywal
+* **Wallpaper:** H4CK Animated and Static Wallpapers by @merive
+
+#### About H4CKSetup Screenshot
+
+* **pfetch**
+* **cl** (in scripts folder)
+* **cmatrix**
+
