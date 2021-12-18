@@ -1,0 +1,68 @@
+/*
+ * ROFI color theme
+ *
+ * Based on Something Found in the Internet
+ *
+ * User: merive
+ * Copyright: merive
+ */
+
+* {
+  font: "Roboto Condensed 12";
+  bg: #0D070D4F;
+  fg: #FA6462;
+  acc: #8F0E14;
+  tp: #00000000;
+
+  background-color: @bg;
+  border: 0;
+  margin: 2;
+  padding: 0;
+  spacing: 0;
+}
+
+element, entry, prompt {
+  padding: 10;
+  background-color: @tp;
+  text-color: @fg;
+}
+
+element selected {
+  text-color: @fg;
+  border: 2;
+  border-color: @acc;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+}
+
+inputbar {
+  background-color: @tp;
+  children: [entry];
+}
+
+listview {
+  lines: 10;
+  scrollbar: true;
+}
+
+mainbox {
+  background-color: @tp;
+  children: [inputbar, listview];
+}
+
+scrollbar {
+  border-color: @acc;
+  background-color: @bg;
+  handle-color: @acc;
+  padding: 3;
+  margin: 0 0 0 10;
+}
+
+window {
+  border: 2;
+  padding: 10;
+  transparency: "real";
+}

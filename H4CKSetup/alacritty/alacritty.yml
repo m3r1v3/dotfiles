@@ -1,0 +1,38 @@
+font:
+  normal:
+    family: Hack 
+    style: Regular
+    size: 12
+
+window:
+  padding:
+    x: 15
+    y: 15
+
+colors:
+  # Default colors
+  primary:
+    background: '#020903'
+    foreground: '#a6dcb2'
+
+  # Normal colors
+  normal:
+    black:   '#020903'
+    red:     '#387845'
+    green:   '#2E853B'
+    yellow:  '#388F47'
+    blue:    '#3EA24F'
+    magenta: '#46A257'
+    cyan:    '#54B567'
+    white:   '#a6dcb2'
+
+  # Bright colors
+  bright:
+    black:   '#749a7c'
+    red:     '#387845'
+    green:   '#2E853B'
+    yellow:  '#388F47'
+    blue:    '#3EA24F'
+    magenta: '#46A257'
+    cyan:    '#54B567'
+    white:   '#a6dcb2'

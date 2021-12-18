@@ -181,7 +181,7 @@ bindsym $mod+r mode "resize"
 # Pulse Audio controls
 # bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 # bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-# bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec brightnessctl -q set +5% # increase screen brightness
@@ -216,9 +216,9 @@ exec_always --no-startup-id picom
 # Colors #
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #FA6462 #4A3F6E #ac807e #FA6462   #FA6462
-client.focused_inactive #ac807e #4A3F6E #ac807e #ac807e   #ac807e
-client.unfocused        #ac807e #4A3F6E #ac807e #ac807e   #ac807e
+client.focused          #FA6462 #f6b7b5 #ac807e #FA6462   #FA6462
+client.focused_inactive #ac807e #f6b7b5 #ac807e #ac807e   #ac807e
+client.unfocused        #ac807e #f6b7b5 #ac807e #ac807e   #ac807e
 client.urgent           #ac807e #0D070D #ac807e #ac807e   #ac807e
 client.placeholder      #ac807e #ac807e #ac807e #ac807e   #ac807e
 
