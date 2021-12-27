@@ -181,7 +181,7 @@ bindsym $mod+r mode "resize"
 # Sreen brightness controls
 bindsym XF86MonBrightnessUp exec brightnessctl -q set +5% # increase screen brightness
 
-bindsym XF86MonBrightnessDown exec brightnessctl -q set +15% # decrease screen brigthness
+bindsym XF86MonBrightnessDown exec brightnessctl -q set -5% # decrease screen brigthness
 
 # Media player controls #
 bindsym XF86AudioPlay exec playerctl play-pause
@@ -192,10 +192,10 @@ bindsym XF86AudioPrev exec playerctl previous
 # Wallpaper #
 
 # Static
-# exec --no-startup-id feh --bg-scale /home/merive/Pictures/H4CK.png 
+# exec --no-startup-id feh --bg-scale /home/merive/Pictures/Ico.png 
 
 # Animated 
-exec --no-startup-id xwinwrap -b -s -fs -st -sp -nf -ov -fdt -ni -- mpv -wid WID --really-quiet --framedrop=vo --no-audio --loop --panscan="1.0" /home/merive/Pictures/H4CK.mp4
+exec --no-startup-id xwinwrap -b -s -fs -st -sp -nf -ov -fdt -ni -- mpv -wid WID --really-quiet --framedrop=vo --no-audio --loop --panscan="1.0" /home/merive/Pictures/Ico.mp4
 
 # i3-gaps #
 gaps inner 15
@@ -216,13 +216,13 @@ exec_always --no-startup-id picom
 # Colors #
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #46A257 #54B567 #a6dcb2 #46A257   #46A257
-client.focused_inactive #a6dcb2 #54B567 #a6dcb2 #a6dcb2   #a6dcb2
-client.unfocused        #a6dcb2 #54B567 #a6dcb2 #a6dcb2   #a6dcb2
-client.urgent           #a6dcb2 #020903 #a6dcb2 #a6dcb2   #a6dcb2
-client.placeholder      #a6dcb2 #a6dcb2 #a6dcb2 #a6dcb2   #a6dcb2
+client.focused          #C0BEBF #BFC0BF #2D7E4A #C0BEBF   #C0BEBF
+client.focused_inactive #2D7E4A #BFC0BF #2D7E4A #2D7E4A   #2D7E4A
+client.unfocused        #2D7E4A #BFC0BF #2D7E4A #2D7E4A   #2D7E4A
+client.urgent           #2D7E4A #020903 #2D7E4A #2D7E4A   #2D7E4A
+client.placeholder      #2D7E4A #2D7E4A #2D7E4A #2D7E4A   #2D7E4A
 
-client.background       #020903
+client.background       #f6f5f6
 
 # Move floating window #
 bindsym $mod+m mode "move" focus floating
