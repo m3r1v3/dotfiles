@@ -1,5 +1,3 @@
-echo -n "Network name: " 
-read name
-echo -n "Network password: "
-read password
+read -p "Network name > " name
+read -p "$name password >" password
 nmcli device wifi connect $name password $password

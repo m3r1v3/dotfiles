@@ -192,10 +192,10 @@ bindsym XF86AudioPrev exec playerctl previous
 # Wallpaper #
 
 # Static
-# exec --no-startup-id feh --bg-scale /home/merive/Pictures/Ico.png 
+# exec --no-startup-id feh --bg-scale $HOME/Pictures/Ico.png 
 
 # Animated 
-exec --no-startup-id xwinwrap -b -s -fs -st -sp -nf -ov -fdt -ni -- mpv -wid WID --really-quiet --framedrop=vo --no-audio --loop --panscan="1.0" /home/merive/Pictures/Ico.mp4
+exec --no-startup-id xwinwrap -b -s -fs -st -sp -nf -ov -fdt -ni -- mpv -wid WID --really-quiet --framedrop=vo --no-audio --loop --panscan="1.0" $HOME/Pictures/Ico.mp4
 
 # i3-gaps #
 gaps inner 15
@@ -244,5 +244,5 @@ mode "move" {
 }
 
 # Take Screenshot #
-bindsym Print exec flameshot full -p ~/Pictures
-bindsym Shift+Print exec flameshot gui -p ~/Pictures
+bindsym Print exec flameshot full -p $HOME/Pictures
+bindsym Shift+Print exec flameshot gui -p $HOME/Pictures

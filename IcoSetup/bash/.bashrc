@@ -18,11 +18,11 @@ alias spotify="flatpak run com.spotify.Client > /dev/null"
 printf '\e[4 q'
 
 # Spicetify
-export SPICETIFY_INSTALL="/home/merive/spicetify-cli"
+export SPICETIFY_INSTALL="$HOME/spicetify-cli"
 export PATH="$SPICETIFY_INSTALL:$PATH"
 
 # Scripts
-export SCRIPTS="/home/merive/Code/Bash"
+export SCRIPTS="$HOME/Code/Bash"
 export PATH="$SCRIPTS:$PATH"
 
 # Starship configuration
