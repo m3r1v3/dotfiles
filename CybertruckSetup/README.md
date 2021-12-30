@@ -1,8 +1,8 @@
-# CyberpunkSetup
+# CybertruckSetup
 
-![CyberpunkSetup](https://github.com/merive-studio/dotfiles/blob/master/CyberpunkSetup/setup.png)
+![CybertruckSetup](https://github.com/merive-studio/dotfiles/blob/master/CybertruckSetup/setup.png)
 
-## About CyberpunkSetup
+## About CybertruckSetup
 
 * **Distributive**: Manjaro
 * **Window Manager:** i3-gaps
@@ -13,7 +13,7 @@
 * **Color Scheme:** Pywal
 * **Wallpaper:** Tesla Cybertruck Wallpaper by @merive
 
-## About CyberpunkSetup Screenshot
+## About CybertruckSetup Screenshot
 
 * **pfetch**
 * **cl** (in scripts folder)
