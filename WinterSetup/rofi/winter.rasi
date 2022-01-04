@@ -1,0 +1,81 @@
+/*
+ * ROFI color theme
+ *
+ * Based on Something Found in the Internet
+ *
+ * User: merive
+ * Copyright: merive
+ */
+
+* {
+  font: "Roboto Condensed 12";
+  bg: #122344aa;
+  fg: #bdcee4;
+  tp: #00000000;
+  acc: #bdcee4;
+
+  background-color: @bg;
+  border: 2;
+  margin: 2;
+  padding: 0;
+  spacing: 0;
+  border-radius: 8;
+  
+  width: 675;
+  height: 435;
+}
+
+element, entry, prompt {
+  padding: 10;
+  border-radius: 8;
+  background-color: @tp;
+  text-color: @fg;
+}
+
+element selected {
+  text-color: @fg;
+  border: 2;
+  border-radius: 8;
+  border-color: @acc;
+}
+
+element-text {
+  background-color: inherit;
+  text-color: inherit;
+  border-radius: 8;
+}
+
+inputbar {
+  border-size: 2;
+  border-color: @acc;
+  border-radius: 8;
+  background-color: @tp;
+  children: [entry];
+}
+
+listview {
+  lines: 10;
+  border-radius: 8;
+  scrollbar: true;
+}
+
+mainbox {
+  border-radius: 8;
+  background-color: @tp;
+  children: [inputbar, listview];
+}
+
+scrollbar {
+  border-radius: 8;
+  border-color: @acc;
+  background-color: @bg;
+  handle-color: @acc;
+  padding: 3;
+  margin: 0 0 0 10;
+}
+
+window {
+  border-color: @acc;
+  border-radius: 8;
+  transparency: "real";
+}

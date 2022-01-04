@@ -1,0 +1,3 @@
+read -p "Network name > " name
+read -p "$name password >" password
+nmcli device wifi connect $name password $password
