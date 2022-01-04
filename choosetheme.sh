@@ -12,14 +12,15 @@ select_option() {
         1. Select CybertruckSetup
         2. Select H4CKSetup
         3. Select IcoSetup
+        4. Select WinterSetup
         0. Quit
     "
-    read -e -p "Enter option [0-3] > " -i 0
+    read -e -p "Enter option [0-4] > " -i 0
     check_option
 }
 
 check_option() {
-    if [[ "$REPLY" =~ ^[0-3]$ ]]; then
+    if [[ "$REPLY" =~ ^[0-4]$ ]]; then
         if [[ "$REPLY" == 0 ]]; then
             echo
             echo "Bye"
@@ -42,6 +43,12 @@ check_option() {
             echo "Selected IcoSetup"
             make_backup
             set_ico
+        fi
+        if [[ "$REPLY" == 4 ]]; then
+            echo
+            echo "Selected WinterSetup"
+            make_backup
+            set_winter
         fi
     else
         echo
@@ -158,7 +165,7 @@ set_ico() {
     echo "* Vim config has been updated"
     
     # copy rofi files
-    sudo cp -rf H4CKSetup/rofi/ico.rasi /usr/share/rofi/themes/
+    sudo cp -rf IcoSetup/rofi/ico.rasi /usr/share/rofi/themes/
     cp -rf IcoSetup/rofi/ico.rasi ~/.config/rofi/config.rasi
     echo '@theme "/usr/share/rofi/themes/ico.rasi"' >> ~/.config/rofi/config.rasi
     echo "* Rofi config has been updated"
@@ -168,6 +175,44 @@ set_ico() {
     echo "* Wallpapers has been updated (Needs restart)"
 
     echo "IcoSetup has been installed"
+    exit
+}
+
+set_winter() {
+    # copy alacritty setup to .config folder
+    cp -rf WinterSetup/alacritty ~/.config/ > /dev/null
+    echo "* Alacritty config has been updated"
+
+    # copy i3 setup to .config folder
+    cp -rf WinterSetup/i3 ~/.config/ > /dev/null
+    echo "* I3wm config has been updated"
+
+    # copy polybar setup to .config folder
+    cp -rf WinterSetup/polybar ~/.config/ > /dev/null
+    echo "* Polybar config has been updated"
+
+    # copy spicetify theme to spicetify themes folder
+    cp -rf WinterSetup/spicetify/WinterTheme ~/spicetify-cli/Themes/ > /dev/null
+    spicetify config current_theme WinterTheme > /dev/null
+    spicetify config color_scheme winter > /dev/null
+    spicetify apply > /dev/null
+    echo "* Spicetify config has been updated"
+
+    # copy vim config to user directory
+    cp -rf WinterSetup/vim/.vimrc ~/ > /dev/null
+    echo "* Vim config has been updated"
+
+    # copy rofi files
+    sudo cp -rf WinterSetup/rofi/winter.rasi /usr/share/rofi/themes/
+    cp -rf WinterSetup/rofi/winter.rasi ~/.config/rofi/config.rasi
+    echo '@theme "/usr/share/rofi/themes/winter.rasi"' >> ~/.config/rofi/config.rasi
+    echo "* Rofi config has been updated"
+
+    # copy wallpapers
+    cp -rf WinterSetup/wallpapers/* ~/Pictures
+    echo "* Wallpapers has been updated (Needs restart)"
+
+    echo "WinterSetup has been installed"
     exit
 }
 
