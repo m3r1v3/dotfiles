@@ -12,7 +12,7 @@ Edit them if it's necessary.
 
 ### CybertruckSetup
 
-![CybertruckSetup](https://github.com/merive-studio/dotfiles/blob/master/CybertruckSetup/setup.png)
+![CybertruckSetup](https://github.com/merive-inc/dotfiles/blob/main/CybertruckSetup/setup.png)
 
 #### About CybertruckSetup
 
@@ -33,7 +33,7 @@ Edit them if it's necessary.
 
 ### H4CKSetup
 
-![H4CKSetup](https://github.com/merive-studio/dotfiles/blob/master/H4CKSetup/setup.png)
+![H4CKSetup](https://github.com/merive-inc/dotfiles/blob/main/H4CKSetup/setup.png)
 
 #### About H4CKSetup
 
@@ -54,7 +54,7 @@ Edit them if it's necessary.
 
 ### IcoSetup
 
-![IcoSetup](https://github.com/merive-studio/dotfiles/blob/master/IcoSetup/setup.png)
+![IcoSetup](https://github.com/merive-inc/dotfiles/blob/main/IcoSetup/setup.png)
 
 #### About IcoSetup
 
@@ -75,7 +75,7 @@ Edit them if it's necessary.
 
 ### WinterSetup
 
-![WinterSetup](https://github.com/merive-studio/dotfiles/blob/master/WinterSetup/setup.png)
+![WinterSetup](https://github.com/merive-inc/dotfiles/blob/main/WinterSetup/setup.png)
 
 #### About WinterSetup
 
