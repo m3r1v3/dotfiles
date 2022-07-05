@@ -1,6 +1,6 @@
 # WinterSetup
 
-![WinterSetup](https://github.com/merive-studio/dotfiles/blob/master/WinterSetup/setup.png)
+![WinterSetup](https://github.com/merive-inc/dotfiles/blob/main/WinterSetup/setup.png)
 
 ## About WinterSetup
 

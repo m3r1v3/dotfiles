@@ -1,6 +1,6 @@
 # CybertruckSetup
 
-![CybertruckSetup](https://github.com/merive-studio/dotfiles/blob/master/CybertruckSetup/setup.png)
+![CybertruckSetup](https://github.com/merive-inc/dotfiles/blob/main/CybertruckSetup/setup.png)
 
 ## About CybertruckSetup
 

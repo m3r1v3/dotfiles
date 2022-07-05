@@ -1,6 +1,6 @@
 # IcoSetup
 
-![IcoSetup](https://github.com/merive-studio/dotfiles/blob/master/IcoSetup/setup.png)
+![IcoSetup](https://github.com/merive-inc/dotfiles/blob/main/IcoSetup/setup.png)
 
 ## About IcoSetup
 

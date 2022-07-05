@@ -1,6 +1,6 @@
 # H4CKSetup
 
-![H4CKSetup](https://github.com/merive-studio/dotfiles/blob/master/H4CKSetup/setup.png)
+![H4CKSetup](https://github.com/merive-inc/dotfiles/blob/main/H4CKSetup/setup.png)
 
 ## About H4CKSetup
 
