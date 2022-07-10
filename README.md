@@ -2,11 +2,10 @@
 
 ## About Repository
 
-This repository contains my setup files. 
-You can use any from them.
-I used them on Manjaro (i3-gaps-wm).
-It means you can have got a problems on another distributives.
-Edit them if it's necessary.
+This repository contains my setup files
+You can use any from them
+I used them on Manjaro Linux (i3-gaps & Gnome)
+It means you can have got a problems on another distributives
 
 ## Setups
 
@@ -16,20 +15,24 @@ Edit them if it's necessary.
 
 #### About CybertruckSetup
 
-* **Distributive**: Manjaro
-* **Window Manager:** i3-gaps
-* **Fonts:** Hack and Roboto Condensed
-* **Terminal Emulator:** Alacritty
-* **Status bars:** Polybar
-* **Compositor:** Picom
-* **Color Scheme:** Pywal
-* **Wallpaper:** Tesla Cybertruck Wallpaper by @merive
+| Info              | Description                     |
+| ----------------- | ------------------------------- |
+| Distributive      | Manjaro                         |
+| Window Manager    | i3-gaps                         |
+| Fonts             | Hack and Roboto Condensed       |
+| Terminal Emulator | Alacritty                       |
+| Bars              | Polybar                         |
+| Compositor        | Picom                           |
+| Color Scheme      | Pywal                           |
+| Wallpaper         | Cybertruck Wallpaper by @merive |
 
-#### About CybertruckSetup Screenshot
+#### Software on screenshot
 
-* **pfetch**
-* **cl** (in scripts folder)
-* **cmatrix**
+| Software | Description               |
+| -------- | ------------------------- |
+| pfetch   | Show system info          |
+| cl       | Show terminal colors      |
+| cmatrix  | Matrix effect in terminal |
 
 ### H4CKSetup
 
@@ -37,20 +40,24 @@ Edit them if it's necessary.
 
 #### About H4CKSetup
 
-* **Distributive**: Manjaro
-* **Window Manager:** i3-gaps
-* **Fonts:** Hack and Roboto Condensed
-* **Terminal Emulator:** Alacritty
-* **Status bars:** Polybar
-* **Compositor:** Picom
-* **Color Scheme:** Pywal
-* **Wallpaper:** H4CK Animated and Static Wallpapers by @merive
+| Info              | Description                                    |
+| ----------------- | ---------------------------------------------- |
+| Distributive      | Manjaro                                        |
+| Window Manager    | i3-gaps                                        |
+| Fonts             | Hack and Roboto Condensed                      |
+| Terminal Emulator | Alacritty                                      |
+| Bars              | Polybar                                        |
+| Compositor        | Picom                                          |
+| Color Scheme      | Pywal                                          |
+| Wallpaper         | H4CK Animated and Static Wallpapers by @merive |
 
-#### About H4CKSetup Screenshot
+#### Software on screenshot
 
-* **pfetch**
-* **cl** (in scripts folder)
-* **cmatrix**
+| Software | Description               |
+| -------- | ------------------------- |
+| pfetch   | Show system info          |
+| cl       | Show terminal colors      |
+| cmatrix  | Matrix effect in terminal |
 
 ### IcoSetup
 
@@ -58,20 +65,24 @@ Edit them if it's necessary.
 
 #### About IcoSetup
 
-* **Distributive**: Manjaro
-* **Window Manager:** i3-gaps
-* **Fonts:** Hack and Roboto Condensed
-* **Terminal Emulator:** Alacritty
-* **Status bars:** Polybar
-* **Compositor:** Picom
-* **Color Scheme:** Pywal
-* **Wallpaper:** Ico Animated and Static Wallpapers by @merive
+| Info              | Description                                   |
+| ----------------- | --------------------------------------------- |
+| Distributive      | Manjaro                                       |
+| Window Manager    | i3-gaps                                       |
+| Fonts             | Hack and Roboto Condensed                     |
+| Terminal Emulator | Alacritty                                     |
+| Bars              | Polybar                                       |
+| Compositor        | Picom                                         |
+| Color Scheme      | Pywal                                         |
+| Wallpaper         | Ico Animated and Static Wallpapers by @merive |
 
-#### About IcoSetup Screenshot
+#### Software on screenshot
 
-* **pfetch**
-* **cl** (in scripts folder)
-* **cmatrix**
+| Software | Description               |
+| -------- | ------------------------- |
+| pfetch   | Show system info          |
+| cl       | Show terminal colors      |
+| cmatrix  | Matrix effect in terminal |
 
 ### WinterSetup
 
@@ -79,36 +90,47 @@ Edit them if it's necessary.
 
 #### About WinterSetup
 
-* **Distributive**: Manjaro
-* **Window Manager:** i3-gaps
-* **Fonts:** Hack and Roboto Condensed
-* **Terminal Emulator:** Alacritty
-* **Status bars:** Polybar
-* **Compositor:** Picom with Rounded Corners
-* **Color Scheme:** Pywal
-* **Wallpaper:** Winter Animated and Static Wallpapers by @merive
+| Info              | Description                                      |
+| ----------------- | ------------------------------------------------ |
+| Distributive      | Manjaro                                          |
+| Window Manager    | i3-gaps                                          |
+| Fonts             | Hack and Roboto Condensed                        |
+| Terminal Emulator | Alacritty                                        |
+| Bars              | Polybar                                          |
+| Compositor        | Picom                                            |
+| Color Scheme      | Pywal                                            |
+| Wallpaper         | Winter Animated and Static Wallpapers by @merive |
 
-#### About WinterSetup Screenshot
+#### Software on screenshot
 
-* **pfetch**
-* **cl** (in scripts folder)
-* **cmatrix**
+| Software | Description               |
+| -------- | ------------------------- |
+| pfetch   | Show system info          |
+| cl       | Show terminal colors      |
+| cmatrix  | Matrix effect in terminal |
 
 ### RetroWaveSetup
 
 ![RetroWaveSetup](https://github.com/merive-studio/dotfiles/blob/main/RetroWaveSetup/setup.png)
 
-#### About RetroWaveSetup
-
-* **Distributive**: Manjaro
-* **Window Manager:** Gnome
-* **Fonts:** Hack, Roboto and JetBrains Mono
-* **Terminal Emulator:** Alacritty and Black Box
-* **Color Scheme:** Pywal
-* **Wallpaper:** RetroWave Wallpaper by @merive
-
 #### About RetroWaveSetup Screenshot
 
-* **pfetch**
-* **cl** (in scripts folder)
-* **neovim**
+| Info              | Description                                                    |
+| ----------------- | -------------------------------------------------------------- |
+| Distributive      | Manjaro                                                        |
+| Window Manager    | Gnome                                                          |
+| Fonts             | Hack, Roboto, JetBrains Mono                                   |
+| Terminal Emulator | Alacritty, BlackBox                                            |
+| Bar               | Dash to Dock                                                   |
+| Color Scheme      | Pywal                                                          |
+| Extensions        | Blur my Shell, Color Picker, Vitals, Transparent Window Moving |
+| Wallpaper         | Cybertruck Wallpaper by @merive                                |
+
+#### Software on screenshot
+
+| Software | Description               |
+| -------- | ------------------------- |
+| pfetch   | Show system info          |
+| cl       | Show terminal colors      |
+| neovim   | Improved vim with plugins |
+
