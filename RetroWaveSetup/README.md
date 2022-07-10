@@ -16,3 +16,22 @@
 * **pfetch**
 * **cl** (in scripts folder)
 * **neovim**
+
+| Info              | Description                                                    |
+| ----------------- | -------------------------------------------------------------- |
+| Distributive      | Manjaro                                                        |
+| Window Manager    | Gnome                                                          |
+| Fonts             | Hack, Roboto, JetBrains Mono                                   |
+| Terminal Emulator | Alacritty, BlackBox                                            |
+| Bar               | Dash to Dock                                                   |
+| Color Scheme      | Pywal                                                          |
+| Extensions        | Blur my Shell, Color Picker, Vitals, Transparent Window Moving |
+| Wallpaper         | Cybertruck Wallpaper by @merive                                |
+
+## Software on screenshot
+
+| Software | Description               |
+| -------- | ------------------------- |
+| pfetch   | Show system info          |
+| cl       | Show terminal colors      |
+| neovim   | Improved vim with plugins |
