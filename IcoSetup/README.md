@@ -4,17 +4,21 @@
 
 ## About IcoSetup
 
-* **Distributive**: Manjaro
-* **Window Manager:** i3-gaps
-* **Fonts:** Hack and Roboto Condensed
-* **Terminal Emulator:** Alacritty
-* **Status bars:** Polybar
-* **Compositor:** Picom
-* **Color Scheme:** Pywal
-* **Wallpaper:** Ico Animated and Static Wallpapers by @merive
+| Info              | Description                                   |
+| ----------------- | --------------------------------------------- |
+| Distributive      | Manjaro                                       |
+| Window Manager    | i3-gaps                                       |
+| Fonts             | Hack and Roboto Condensed                     |
+| Terminal Emulator | Alacritty                                     |
+| Bars              | Polybar                                       |
+| Compositor        | Picom                                         |
+| Color Scheme      | Pywal                                         |
+| Wallpaper         | Ico Animated and Static Wallpapers by @merive |
 
-## About IcoSetup Screenshot
+## Software on screenshot
 
-* **pfetch**
-* **cl** (in scripts folder)
-* **cmatrix**
+| Software | Description               |
+| -------- | ------------------------- |
+| pfetch   | Show system info          |
+| cl       | Show terminal colors      |
+| cmatrix  | Matrix effect in terminal |
