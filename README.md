@@ -124,7 +124,7 @@ It means you can have got a problems on another distributives
 | Bar               | Dash to Dock                                                   |
 | Color Scheme      | Pywal                                                          |
 | Extensions        | Blur my Shell, Color Picker, Vitals, Transparent Window Moving |
-| Wallpaper         | Cybertruck Wallpaper by @merive                                |
+| Wallpaper         | RetroWave Wallpaper by @merive                                 |
 
 #### Software on screenshot
 
