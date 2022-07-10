@@ -4,17 +4,17 @@
 
 ## About CybertruckSetup
 
-* **Distributive**: Manjaro
-* **Window Manager:** i3-gaps
-* **Fonts:** Hack and Roboto Condensed
-* **Terminal Emulator:** Alacritty
-* **Status bars:** Polybar
-* **Compositor:** Picom
-* **Color Scheme:** Pywal
-* **Wallpaper:** Tesla Cybertruck Wallpaper by @merive
+| Distributive      | Manjaro                         |
+| Window Manager    | i3-gaps                         |
+| Fonts             | Hack and Roboto Condensed       |
+| Terminal Emulator | Alacritty                       |
+| Bars              | Polybar                         |
+| Compositor        | Picom                           |
+| Color Scheme      | Pywal                           |
+| Wallpaper         | Cybertruck Wallpaper by @merive |
 
-## About CybertruckSetup Screenshot
+## Software on screenshot
 
-* **pfetch**
-* **cl** (in scripts folder)
-* **cmatrix**
+| pfetch  | Show system info          |
+| cl      | Show terminal colors      |
+| cmatrix | Matrix effect in terminal |
