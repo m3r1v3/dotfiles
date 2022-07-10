@@ -4,6 +4,8 @@
 
 ## About CybertruckSetup
 
+| Info              | Description                     |
+| ----------------- | ------------------------------- |
 | Distributive      | Manjaro                         |
 | Window Manager    | i3-gaps                         |
 | Fonts             | Hack and Roboto Condensed       |
@@ -15,6 +17,8 @@
 
 ## Software on screenshot
 
-| pfetch  | Show system info          |
-| cl      | Show terminal colors      |
-| cmatrix | Matrix effect in terminal |
+| Software | Description               |
+| -------- | ------------------------- |
+| pfetch   | Show system info          |
+| cl       | Show terminal colors      |
+| cmatrix  | Matrix effect in terminal |
